@@ -28,13 +28,13 @@ This project is a React.js-based restaurant website that provides an online pres
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/restaurant-website.git
+   git clone https://github.com/tripti-27/Restaurant/tree/main.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd restaurant-website
+   cd reactfrontend
    ```
 
 3. Install dependencies:
@@ -73,6 +73,8 @@ Contributions are welcome! Follow these steps to contribute:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
-Feel free to customize this template based on the specific details of your restaurant website project. Add more sections or details as needed, and make sure to replace placeholder URLs and names with your actual project information.
+# Launch page of website
+
+<img width="948" alt="image" src="https://github.com/tripti-27/Restaurant/assets/107769188/1a3d9f49-b6c5-4eef-9447-402c964f5e7a">
+
