@@ -69,13 +69,13 @@ Open the src/services/api.js file in your React project.
 
 Update the baseURL variable with the URL where your REST API server is running. By default, it's set to http://localhost:5000.
 
-javascript
-Copy code
+
+
 const baseURL = 'http://localhost:5000';
 In your React components, use the axios library or any other HTTP client to make API requests. Example:
 
-javascript
-Copy code
+
+
 import axios from 'axios';
 
 const fetchData = async () => {
