@@ -70,11 +70,13 @@ Contributions are welcome! Follow these steps to contribute:
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 # Launch page of website
 
 <img width="948" alt="image" src="https://github.com/tripti-27/Restaurant/assets/107769188/1a3d9f49-b6c5-4eef-9447-402c964f5e7a">
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
