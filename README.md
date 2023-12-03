@@ -60,6 +60,38 @@ This project is a React.js-based restaurant website that provides an online pres
 - [Styled Components](https://styled-components.com/) for styling
 - Other dependencies as listed in `package.json`
 
+# REST API Integration
+
+React Application Integration
+In the React.js application (reactfrontend), the REST API is utilized to fetch data dynamically. Here's how you can integrate it:
+
+Open the src/services/api.js file in your React project.
+
+Update the baseURL variable with the URL where your REST API server is running. By default, it's set to http://localhost:5000.
+
+javascript
+Copy code
+const baseURL = 'http://localhost:5000';
+In your React components, use the axios library or any other HTTP client to make API requests. Example:
+
+javascript
+Copy code
+import axios from 'axios';
+
+const fetchData = async () => {
+  try {
+    const response = await axios.get('/api/menu');
+    // Handle the data received from the API
+  } catch (error) {
+    console.error('Error fetching data:', error);
+  }
+};
+Adjust the API endpoints and data handling according to your project requirements.
+
+Now, your React application is connected to the REST API, and you can dynamically fetch and display data from the server in your components.
+
+
+
 ## Contributing
 
 Contributions are welcome! Follow these steps to contribute:
